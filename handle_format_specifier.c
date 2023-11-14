@@ -14,6 +14,7 @@ sp_f spf[] = {
 {"%", print_percent},
 {"i", print_int},
 {"d", print_decimal},
+{"b", print_binary},
 {NULL, NULL},
 };
 int length = 0;

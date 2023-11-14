@@ -25,6 +25,7 @@ int print_percent();
 int print_int(va_list ap);
 int print_decimal(va_list ap);
 int print_binary(va_list ap);
+int print_binary(va_list ap);
 int handle_format_specifier(const char *format, va_list ap);
 int _printf(const char *format, ...);
 #endif
