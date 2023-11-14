@@ -9,10 +9,9 @@
  */
 int _printf(const char *format, ...)
 {
+int length = 0;
 va_list ap;
 va_start(ap, format);
-int length = 0;
-
 while (*format)
 {
 if (*format == '%')
