@@ -18,6 +18,7 @@ sp_f spf[] = {
 {"u", print_unsigned},
 {"o", print_octal},
 {"x", print_hexadecimal},
+{"X", print_HEX},
 {NULL, NULL},
 };
 int length = 0;
