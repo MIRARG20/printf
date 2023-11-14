@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * print_octal - Function that print
  * octal int
@@ -21,7 +20,7 @@ len++;
 }
 else
 {
-for (int j = 0; x > 0; j++)
+for (j = 0; x > 0; j++)
 {
 o[j] = ((x % 8) + '0');
 x /= 8;
@@ -29,7 +28,7 @@ x /= 8;
 
 for (i = j - 1; i >= 0; i--)
 {
-_putchar(s[i]);
+_putchar(o[i]);
 len++;
 }
 }
