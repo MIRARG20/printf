@@ -29,6 +29,7 @@ int print_binary(va_list ap);
 int print_binary(va_list ap);
 int print_unsigned(va_list ap);
 int print_octal(va_list ap);
+int print_hexadecimal(va_list ap);
 int handle_format_specifier(const char *format, va_list ap);
 int _printf(const char *format, ...);
 #endif
